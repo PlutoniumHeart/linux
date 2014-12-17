@@ -2310,6 +2310,7 @@ struct i915_params {
 	bool reset;
 	bool disable_display;
 	bool disable_vtd_wa;
+	bool enable_hd_vgaarb;
 	int use_mmio_flip;
 	bool mmio_debug;
 };

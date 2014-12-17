@@ -1203,4 +1203,6 @@ void intel_pipe_update_end(struct intel_crtc *crtc, u32 start_vbl_count);
 /* intel_tv.c */
 void intel_tv_init(struct drm_device *dev);
 
+extern void i915_disable_vga_mem(struct drm_device *dev);
+
 #endif /* __INTEL_DRV_H__ */
